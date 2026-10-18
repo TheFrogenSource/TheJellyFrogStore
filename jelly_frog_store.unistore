@@ -27,12 +27,12 @@
                 {
                     "type": "downloadFile",
                     "file": "https://raw.githubusercontent.com/Stormwindsky/Catch-Apples/main/sb3/Catch%20Apples.sb3",
-                    "output": "sdmc:/3ds/scratch-everywhere/Catch%20Apples.sb3",
+                    "output": "sdmc:/3ds/scratch-everywhere/Catch_Apples.sb3",
                     "message": "Download of Catch Apples..."
                 },
                 {
                     "type": "promptMessage",
-                    "message": "Finish ! Run Scratch Everywhere for playing."
+                    "message": "Finished ! Run Scratch Everywhere for playing."
                 }
             ]
         }
