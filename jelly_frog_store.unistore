@@ -5,8 +5,8 @@
         "description": "Official UniStore for homebrews and games by The Frog Squad.",
         "url": "https://raw.githubusercontent.com/TheFrogenSource/TheJellyFrogStore/main/jelly_frog_store.unistore",
         "file": "jelly_frog_store.unistore",
-        "revision": 1,
-        "version": 4
+        "revision": 2,
+        "version": 3
     },
     "storeContent": [
         {
@@ -15,14 +15,18 @@
                 "author": "Stormwindsky",
                 "description": "A catch the apples game originally made in Scratch.",
                 "category": ["Games"],
+                "console": ["3DS"],
                 "license": "MIT-0",
-                "assets_license": "CC0-1.0",
                 "version": "1.0.0"
             },
-            "Catch Apples.sb3": [
+            "Download": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/3ds/Catch Apples"
+                },
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Stormwindsky/Catch-Apples/raw/refs/heads/main/sb3/Catch%20Apples.sb3",
+                    "file": "https://raw.githubusercontent.com/Stormwindsky/Catch-Apples/main/sb3/Catch%20Apples.sb3",
                     "output": "sdmc:/3ds/Catch Apples/Catch Apples.sb3"
                 }
             ]
