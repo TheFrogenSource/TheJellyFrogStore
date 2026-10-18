@@ -22,7 +22,7 @@
             "Download": [
                 {
                     "type": "mkdir",
-                    "directory": "sdmc:/3ds/scratch-everywhere/Catch Apples"
+                    "directory": "sdmc:/3ds/scratch-everywhere/CatchApples"
                 },
                 {
                     "type": "downloadFile",
