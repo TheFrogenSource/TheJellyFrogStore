@@ -22,12 +22,12 @@
             "Download": [
                 {
                     "type": "mkdir",
-                    "directory": "sdmc:/3ds/scratch-everywhere/CatchApples"
+                    "directory": "sdmc:/3ds/scratch-everywhere"
                 },
                 {
                     "type": "downloadFile",
                     "file": "https://raw.githubusercontent.com/Stormwindsky/Catch-Apples/main/sb3/Catch%20Apples.sb3",
-                    "output": "sdmc:/3ds/Catch Apples/Catch Apples.sb3"
+                    "output": "sdmc:/3ds/scratch-everywhere/Catch Apples.sb3"
                 }
             ]
         }
