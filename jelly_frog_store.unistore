@@ -22,7 +22,7 @@
             "Download": [
                 {
                     "type": "mkdir",
-                    "directory": "sdmc:/3ds/scratch-everywhere"
+                    "directory": "sdmc:/3ds/scratch-everywhere/"
                 },
                 {
                     "type": "downloadFile",
