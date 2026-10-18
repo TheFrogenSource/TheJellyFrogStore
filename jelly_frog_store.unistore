@@ -2,7 +2,7 @@
   "storeInfo": {
     "title": "The Jelly Frog Store",
     "author": "The Frog Squad",
-    "description": "Official UniStore for homebrews and games by The Frog Squad and contributors.",
+    "description": "Official UniStore for homebrews and games by The Frog Squad.",
     "version": 3,
     "fileVer": 1,
     "license": "MIT-0",
@@ -15,18 +15,18 @@
         "title": "Catch Apples",
         "author": "Stormwindsky",
         "version": "1.0.0",
-        "description": "A catch the apples game originally made in Scratch. Code licensed under MIT-0, assets licensed under CC0 1.0.",
+        "description": "A catch the apples game originally made in Scratch. Playable via Scratch Everywhere.",
         "category": ["Games"],
         "license": "MIT-0",
         "assets_license": "CC0-1.0",
         "icon_url": "https://raw.githubusercontent.com/Stormwindsky/Stormwindsky-Website/main/Public_Domain_Thing/Made_By_Me/Audios_And_Images_And_Other/Image/Retro%20Red%20Apple.png"
       },
       "downloads": {
-        "Download Scratch Project (.sb3)": [
+        "Catch Apples (.sb3)": [
           {
             "type": "downloadFile",
             "file": "https://github.com/Stormwindsky/Catch-Apples/raw/refs/heads/main/sb3/Catch%20Apples.sb3",
-            "output": "sdmc:/3ds/Catch Apples/Catch Apples.sb3"
+            "output": "sdmc:/3ds/ScratchEverywhere/Projects/Catch Apples.sb3"
           }
         ]
       }
