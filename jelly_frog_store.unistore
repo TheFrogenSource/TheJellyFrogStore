@@ -5,7 +5,7 @@
         "description": "Official UniStore for homebrews and games by The Frog Squad.",
         "url": "https://raw.githubusercontent.com/TheFrogenSource/TheJellyFrogStore/main/jelly_frog_store.unistore",
         "file": "jelly_frog_store.unistore",
-        "revision": 2,
+        "revision": 3,
         "version": 3
     },
     "storeContent": [
@@ -19,15 +19,20 @@
                 "license": "MIT-0",
                 "version": "1.0.0"
             },
-            "Download": [
+            "Download Catch Apples": [
                 {
                     "type": "mkdir",
-                    "directory": "sdmc:/3ds/scratch-everywhere/"
+                    "directory": "sdmc:/3ds/scratch-everywhere"
                 },
                 {
                     "type": "downloadFile",
                     "file": "https://raw.githubusercontent.com/Stormwindsky/Catch-Apples/main/sb3/Catch%20Apples.sb3",
-                    "output": "sdmc:/3ds/scratch-everywhere/Catch Apples.sb3"
+                    "output": "sdmc:/3ds/scratch-everywhere/Catch_Apples.sb3",
+                    "message": "Téléchargement de Catch Apples..."
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Finish ! Run Scratch Everywhere for playing."
                 }
             ]
         }
