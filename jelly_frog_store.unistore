@@ -35,6 +35,33 @@
                     "message": "Finished ! Run Scratch Everywhere for playing."
                 }
             ]
+        },
+        {
+            "info": {
+                "title": "The Oldest Film Footage 1888",
+                "author": "Stormwindsky",
+                "description": "The oldest film footage 1888 originally made in Scratch.",
+                "category": ["Games"],
+                "console": ["3DS"],
+                "license": "MIT-0",
+                "version": "1.0.0"
+            },
+            "Download The Oldest Film Footage 1888": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/3ds/scratch-everywhere"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Stormwindsky/The-Oldest-Film-Footage-1888/releases/download/v1/The-Oldest-Film-Footage-1888-main.sb3",
+                    "output": "sdmc:/3ds/scratch-everywhere/The_Oldest_Film_Footage_1888.sb3",
+                    "message": "Download of The Oldest Film Footage 1888..."
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Finished ! Run Scratch Everywhere for playing."
+                }
+            ]
         }
     ]
 }
