@@ -5,7 +5,7 @@
         "description": "Official UniStore for homebrews and games by The Frog Squad.",
         "url": "https://raw.githubusercontent.com/TheFrogenSource/TheJellyFrogStore/main/jelly_frog_store.unistore",
         "file": "jelly_frog_store.unistore",
-        "revision": 3,
+        "revision": 4,
         "version": 3
     },
     "storeContent": [
@@ -56,6 +56,33 @@
                     "file": "https://github.com/Stormwindsky/The-Oldest-Film-Footage-1888/releases/download/v1/The-Oldest-Film-Footage-1888-main.sb3",
                     "output": "sdmc:/3ds/scratch-everywhere/The_Oldest_Film_Footage_1888.sb3",
                     "message": "Download of The Oldest Film Footage 1888..."
+                },
+                {
+                    "type": "promptMessage",
+                    "message": "Finished ! Run Scratch Everywhere for playing."
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "carry nalzoo around and shoot things with him simulator 3DS Unofficial Port",
+                "author": "elsqued (Ported by Stormwindsky)",
+                "description": "An all rights reserved fan game originally made by elsqued, and ported for the 3DS via Scratch Everywhere by Stormwindsky.",
+                "category": ["Games"],
+                "console": ["3DS"],
+                "license": "All Rights Reserved",
+                "version": "1.0.0"
+            },
+            "Download carry nalzoo around and shoot things with him simulator 3DS Unofficial Port": [
+                {
+                    "type": "mkdir",
+                    "directory": "sdmc:/3ds/scratch-everywhere"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://web.archive.org/web/20261019104925/https://files.catbox.moe/mhcken.sb3",
+                    "output": "sdmc:/3ds/scratch-everywhere/carry_nalzoo_around_and_shoot_things_with_him_simulator.sb3",
+                    "message": "Download of carry nalzoo around and shoot things with him simulator 3DS Unofficial Port..."
                 },
                 {
                     "type": "promptMessage",
